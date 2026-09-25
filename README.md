@@ -18,39 +18,39 @@ Although the data is artificially generated, it reflects realistic patterns such
 
 This makes the dataset highly suitable for analysis, machine learning, data visualization, dashboards, and business case studies.
 
-## 📊 Column Summary
+## Column Summary
 
-### 🧾 Order Details
+### Order Details
 - **Order ID**
 - **Order Date**
 - **Order Status**
 - **Seller ID**
 
-### 👤 Customer Information
+### Customer Information
 - **Customer ID**
 - **Customer Name**
 - **City, State, Country**
 
-### 📦 Product Information
+### Product Information
 - **Product ID**
 - **Product Name**
 - **Category**
 - **Brand**
 - **Quantity**
 
-### 💰 Pricing and Revenue Metrics
+### Pricing and Revenue Metrics
 - **Unit Price**
 - **Discount**
 - **Tax**
 - **Shipping Cost**
 - **Total Amount**
 
-### 💳 Payment Details
+### Payment Details
 - **Payment Method**
 
 ---
 
-## 🧠 5 Business Questions Addressed
+## 5 Business Questions Addressed
 
 **1. The real impact of "offers": Do discounts generate more money or just more volume?**
 Anyone can see how many discounts have been given. The hard part is cross-referencing the `Discount`, `Quantity`, and `TotalAmount` columns. The question is: When Amazon applies a discount, do people buy so much extra quantity that it makes up for the price drop, or is the company losing money per sale? This is called studying price elasticity.
@@ -74,7 +74,7 @@ Sometimes a product seems like a bestseller because many units are ordered (`Qua
 
 ---
 
-## 🚀 Predictive Models & Business Applications
+## Predictive Models & Business Applications
 
 ### 1. Discount Optimization Model (Regression)
 - **The goal:** Stop giving discounts blindly. Instead of a boss deciding to offer a 15% discount based on intuition, we will feed our entire history to an algorithm (like Random Forest or Linear Regression).
